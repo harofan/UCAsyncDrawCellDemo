@@ -23,12 +23,10 @@
 @property (strong, nonatomic) NSMutableArray<LoanCellLatout *> *cellLayoutArray;
 @property (strong, nonatomic) UITableView *tableView;
 @property (nonatomic, strong) YYFPSLabel *fpsLabel;
-@property (copy, nonatomic) NSString *haha;
 @end
 
-@implementation ViewController{
-    NSInteger _currentPage;
-}
+@implementation ViewController
+
 #pragma mark -life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
